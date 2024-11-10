@@ -1,1 +1,1 @@
-this is txt file
+this is Sprites folder 
