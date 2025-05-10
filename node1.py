@@ -11,7 +11,7 @@ class Main:
 		self.tcar2 = Green_Car()
 		self.tcar3 = Blue_Car()
 		self.score = Score()
-		self.sound = sound
+		#self.sound = sound
 #___________________________
 		self.click= False
 		self.left =False
@@ -57,7 +57,7 @@ class Main:
 			self.car.rect.x = 650
 			
 		if self.move:
-			self.sound.play()
+			#self.sound.play()
 			self.tcar1.rect.y +=10
 			self.tcar2.rect.y += 10
 			self.tcar3.rect.y += 10

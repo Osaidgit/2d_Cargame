@@ -9,7 +9,7 @@ clock = pg.time.Clock()
 fps = 30
 GO=pg.image.load("sprites/Gameover.jpg")
 r_GO = pg.transform.scale(GO,(200,200))
-sound = pg.mixer.Sound("music.wav")
+#und = pg.mixer.Sound("music.wav")
 
 #______________________________
 img = pg.image.load("sprites/Lambo.png")
